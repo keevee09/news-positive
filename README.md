@@ -2,7 +2,7 @@
 
 ## About
 
-A simple Firefox addon that tries to mitigate the news' obsession with murder, killing, and murder. Works particularly well with [the BBC](www.bbc.co.uk/news).
+A simple Firefox addon that tries to mitigate the news' obsession with murder, killing, and murder. Works particularly well with [the BBC](http://www.bbc.co.uk/news).
 
 See also:
 [My other attempt at making Firefox addons](https://github.com/dmcaw221/news-vagueifier)

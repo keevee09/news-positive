@@ -70,6 +70,8 @@ $(document).ready(function() {
         v = v.replace(/\bappalled\b/gi, "disappointed");
         v = v.replace(/\bdisgusting\b/gi, "gross");
         v = v.replace(/\bdisgusted\b/gi, "grossed out");
+        v = v.replace(/\bcritically\b/gi, "a little bit");
+        v = v.replace(/\bbodies\b/gi, "lost shoes");
 
         textNode.nodeValue = v;
     
