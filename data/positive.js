@@ -1,4 +1,3 @@
-
 // Credits:
 // https://github.com/panicsteve/cloud-to-butt
 // https://github.com/DaveRandom/cloud-to-butt-mozilla
@@ -72,6 +71,9 @@ $(document).ready(function() {
         v = v.replace(/\bdisgusted\b/gi, "grossed out");
         v = v.replace(/\bcritically\b/gi, "a little bit");
         v = v.replace(/\bbodies\b/gi, "lost shoes");
+        v = v.replace(/\bdeath\b/gi, "long sleep");
+        v = v.replace(/\bdied\b/gi, "overslept");
+        v = v.replace(/\bfatality\b/gi, "mishap");
 
         textNode.nodeValue = v;
     
