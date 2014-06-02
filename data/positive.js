@@ -6,15 +6,15 @@
 $(document).ready(function() {
     var count = 0;
     walk(document.body);
-    
-    function walk(node) 
+
+    function walk(node)
     {
         // I stole this function from here:
         // http://is.gd/mwZp7E
-    
+
         var child, next;
-    
-        switch ( node.nodeType )  
+
+        switch ( node.nodeType )
         {
             case 1:  // Element
                // alert("Case 1");
@@ -23,7 +23,7 @@ $(document).ready(function() {
             case 11: // Document fragment
                 //alert("Case 11");
                 child = node.firstChild;
-                while ( child ) 
+                while ( child )
                 {
                     next = child.nextSibling;
                     walk(child);
@@ -36,9 +36,9 @@ $(document).ready(function() {
                 break;
         }
 
-    } 
-    
-    
+    }
+
+
     function handleText(textNode)
     {
         // Try using Regexp's for this:
@@ -72,9 +72,11 @@ $(document).ready(function() {
         v = v.replace(/\bdisgusted\b/gi, "grossed out");
         v = v.replace(/\bcritically\b/gi, "a little bit");
         v = v.replace(/\bbodies\b/gi, "lost shoes");
+        v = v.replace(/\bpolitician\b/gi, "petulant child");
+        v = v.replace(/\bparliament\b/gi, "kindergarten");
 
         textNode.nodeValue = v;
-    
+
     }
 
 //alert("final count = "+count);
