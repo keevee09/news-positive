@@ -74,6 +74,7 @@ $(document).ready(function() {
         v = v.replace(/\bbodies\b/gi, "lost shoes");
         v = v.replace(/\bpolitician\b/gi, "petulant child");
         v = v.replace(/\bparliament\b/gi, "kindergarten");
+        v = v.replace(/\bPresident\b/gi, "MC");
 
         textNode.nodeValue = v;
 
